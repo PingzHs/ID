@@ -1,0 +1,98 @@
+#include <iostream>
+#include <iomanip>
+#include <math.h>
+#include <iostream>
+#include <iomanip>
+#include <math.h>
+#include <stdlib.h>
+#include <time.h> 
+#include <cstdlib>
+#include <stdio.h>
+using namespace std;
+int main()
+{
+	string a,g;
+	int b,n;
+	
+	
+	while(1){
+		
+		cout<<"??戮華測徨麼?break礿砦最宒"<<endl<<"1:怢控庈\n2:怢笢庈\n3:價癒庈\n4:怢鰍庈\n5:詢倯庈\n6:陔控庈\n7:皊帗瞥\n8:朊瞥\n9:陔罣瞥\n10:醮璦瞥\n11:怢笢瞥\n12:鰍芘瞥\n13:桼趙瞥\n14:?輿瞥\n15:樁膽瞥\n16:怢鰍瞥\n17:詢倯瞥\n18:瞥\n19:豪?瞥\n20:怢瞥\n21:鱗綬瞥\n22:?隴刓\n23:踢嬡瞥\n24:窣蔬瞥\n25:樁膽庈\n26:陔罣庈\n"; 
+		cin>>a;
+		if(a=="break")break;
+		cout<<"腢鹹or躓\n";
+		cin>>g; 
+		b=stoi(a);
+		cout<<"旯煦趼?: ";
+		switch(b){
+			case 1: 
+				cout<<"A";break;
+			case 2: 
+				cout<<"B";break;
+			case 3: 
+				cout<<"C";break;
+			case 4: 
+				cout<<"D";break;
+			case 5: 
+				cout<<"E";break;
+			case 6: 
+				cout<<"F";break;
+			case 7: 
+				cout<<"G";break;
+			case 8: 
+				cout<<"H";break;
+			case 9: 
+				cout<<"J";break;
+			case 10: 
+				cout<<"K";break;
+			case 11: 
+				cout<<"L";break;
+			case 12: 
+				cout<<"M";break;
+			case 13: 
+				cout<<"N";break;
+			case 14: 
+				cout<<"P";break;
+			case 15: 
+				cout<<"Q";break;
+			case 16: 
+				cout<<"R";break;
+			case 17: 
+				cout<<"S";break;
+			case 18: 
+				cout<<"T";break;
+			case 19: 
+				cout<<"U";break;
+			case 20: 
+				cout<<"V";break;
+			case 21: 
+				cout<<"X";break;
+			case 22: 
+				cout<<"Y";break;
+			case 23: 
+				cout<<"W";break;
+			case 24: 
+				cout<<"Z";break;
+			case 25: 
+				cout<<"I";break;
+			case 26: 
+				cout<<"O";break;
+		}
+		
+		if(g=="鹹"){
+			cout<<"1";
+		}else{
+			cout<<"2";
+		}
+		
+		srand(time(0)); //戮華躲俶褫眕腢 摽醱8?趼 2弇?郔摽眈樓 ?堤腔緊衄8弇赻娗0 
+		n=(rand()%100)*1000000+(rand()%100)*10000+(rand()%100)*100+rand()%100;
+		
+		cout<<setfill('0')<<setw(8)<<n<<endl<<endl;
+	
+	}
+
+
+
+	
+    return 0;}
